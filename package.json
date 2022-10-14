@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+    "node": "16.x",
   "dependencies": {
     "barcode-react-scanner": "1.2.0",
     "react": "^17.0.2",
