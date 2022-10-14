@@ -7,6 +7,7 @@
   "engines": {
     "node": "14.x"
   },
+  "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
    
   "dependencies": {
     "barcode-react-scanner": "1.2.0",
